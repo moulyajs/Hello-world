@@ -494,16 +494,16 @@ elif not is_magician :
  # [0,0,0,1,0,0,0]
 
 #]
-#for row in picture:
- # for pixel in row:
-   # if (pixel == 1):
-    #  print('*', end ='')
+# for row in picture:
+#  for pixel in row:
+#    if (pixel == 1):
+#      print('*', end ='')
 
-   # else:
-   #   print(' ', end ='')
- # print('')
+#    else:
+#      print(' ', end ='')
+#  print('')
 
-some_list = ['a','b','c','b','d','m','n','n']
+"""some_list = ['a','b','c','b','d','m','n','n']
 duplicates = []
 for value in some_list:
    if some_list.count(value) > 1:
@@ -526,4 +526,23 @@ say_hi(emoji='😍',name = ' moulya')
 
 def say_bye(name='Ram',emoji='😁'):
   print(f'bye {name} {emoji}')
-say_bye()
+say_bye()"""
+
+"""import time
+timestamp = time.strftime('%H:%M:%S')
+print(timestamp)
+timestamp = time.strftime('%H')
+print(timestamp)
+timestamp = time.strftime('%M')
+print(timestamp)
+timestamp = time.strftime('%S')
+print(timestamp)"""
+
+x = int(input("enter a value of x: "))
+match x:
+  case 0:
+    print("x is zero")
+  case 4:
+    print("x is 4")
+  case _:
+    print(x)

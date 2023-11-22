@@ -538,11 +538,28 @@ print(timestamp)
 timestamp = time.strftime('%S')
 print(timestamp)"""
 
-x = int(input("enter a value of x: "))
+"""x = int(input("enter a value of x: "))
 match x:
   case 0:
     print("x is zero")
   case 4:
     print("x is 4")
   case _:
-    print(x)
+    print(x)"""
+
+"""def calculateGmean(a,b):
+  print((a*b)/(a+b))
+
+def isgreater(a,b):
+  if a > b:
+    print("a is greater")
+  else:
+    print("b is greater")
+
+isgreater(2,3)
+calculateGmean(2,3)"""
+
+def greet(**name):
+  print("hello",name["fname"],name["lname"])
+
+greet( fname = "john",lname = "khan")

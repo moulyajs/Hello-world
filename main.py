@@ -559,7 +559,30 @@ def isgreater(a,b):
 isgreater(2,3)
 calculateGmean(2,3)"""
 
-def greet(**name):
+"""def greet(**name):
   print("hello",name["fname"],name["lname"])
 
-greet( fname = "john",lname = "khan")
+greet( fname = "john",lname = "khan")"""
+#write a program that an integer as  input 'n' and counts the #number of digits in the binary representation of 'n' using #recursion.
+"""n = int(input("enter a number: "))
+def count_digits(n):
+  if n == 0:
+    return 0
+  else:
+    return 1 + count_digits(n//2)
+print(count_digits(n))"""
+
+#write a program to find gcd by subtraction method
+
+def gcd_subtraction(a, b):
+  while a != b:
+      if a > b:
+          a = a - b
+      else:
+          b = b - a
+  return a
+
+result = gcd_subtraction(4, 6)
+print(result)
+
+    

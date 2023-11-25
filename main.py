@@ -574,7 +574,7 @@ print(count_digits(n))"""
 
 #write a program to find gcd by subtraction method
 
-def gcd_subtraction(a, b):
+"""def gcd_subtraction(a, b):
   while a != b:
       if a > b:
           a = a - b
@@ -583,6 +583,106 @@ def gcd_subtraction(a, b):
   return a
 
 result = gcd_subtraction(4, 6)
-print(result)
+print(result)"""
+
+"""l =[1,8,4,5,6,7,9,2]
+print(l)
+l.append(3)
+print(l)
+l.sort()
+print(l)"""
+
+name = "moulya"
+age = 18
+print(f"my name is {{name}} and my age is{{age}}")
+
+
+"""def square(n):
+#docstring should be placed below the function name otherwise it doesn't work
+  '''
+  this function returns the square of a number'''
+  print(n**2)
+square(5)
+print(square.__doc__)"""
+
+
+#import this #gives the zen of python by tim peters
+
+"""def factorial(n):
+  if n == 0 or n == 1:
+    return 1
+  else:
+    return n * factorial(n -1)
+print(factorial(3))"""
+
+#fibonacci sequence
+
+
+"""def fib(n):
+  if n == 0 or n == 1:
+    return n
+  else:
+    return fib(n-1) + fib(n-2)
+print(fib(5))"""
+
+"""for i in range(5):
+  print(i)
+  if i == 3:
+    break
+
+else:
+   print("no i ")"""
+
+"""a =int(input("enter a number: "))
+for i in range(1,11):
+  print(f"{a} * {i} = {a*i}")"""
+
+#exceptional handling
+"""try:
+  a = int(input("enter a number: "))
+  b = int(input("enter a number: "))
+  print(a/b)
+except ZeroDivisionError:
+  print("division by zero is not allowed")
+except ValueError:
+  print("invalid input")"""
+
+
+#finally keyword
+"""def func():
+  try:
+    l = [1,2,3,4]
+    i = int(input("enter a index: "))
+    print(l[i])
+    return 1
+  except:
+    print("some error occured")
+    return 0
+
+  finally:
+    print("i am always executed")
+
+x = func()
+print(x)"""
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     

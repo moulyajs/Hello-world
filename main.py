@@ -669,7 +669,11 @@ print(x)"""
 if (a<4 or a>8):
   raise ValueError("Value should be between 4 and 8")"""
 
-
+a = [1,23,4,5,6,765,54]
+for index, i in enumerate(a):
+  print(i)
+  if (index == 3):
+    print("you r awesome")
 
 
   

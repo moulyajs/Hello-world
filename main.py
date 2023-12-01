@@ -1,4 +1,4 @@
-print(2**3)
+"""print(2**3)
 print(4 // 2)
 print(2 // 4)
 print(7 // 3)
@@ -120,7 +120,7 @@ print(quote.replace('to', 'the'))
 
 quote = 'to be or not to be'
 print(quote.replace('be', 'me'))
-print(quote)
+print(quote)"""
 
 #birth_year =input ('what year were you born?')
 #age =(2023 -int( birth_year))
@@ -135,7 +135,7 @@ print(quote)
 #list = [1,'a',0.5,True]
 #print(list)
 
-amazon_cart = ['notebooks', 'sunglasses']
+"""amazon_cart = ['notebooks', 'sunglasses']
 print(amazon_cart[1])
 
 amazon_cart = ['notebooks', 'sunglasses', 'toys', 'grapes']
@@ -326,7 +326,7 @@ print(new_set)
 print(my_set)
 
 my_set2 = {1, 2, 3, 4, 5, 6}
-your_set = {4, 5, 6, 7, 8, 9}
+your_set = {4, 5, 6, 7, 8, 9}"""
 
 #print(my_set2.difference(your_set))
 #print(my_set2.discard(5))
@@ -337,7 +337,7 @@ your_set = {4, 5, 6, 7, 8, 9}
 #print(my_set2 & (your_set))
 #print(my_set2.isdisjoint(your_set))
 #print(my_set2.union(your_set))
-print(my_set2 | your_set)
+"""print(my_set2 | your_set)
 print(my_set2.issubset(your_set))
 print(your_set.issuperset(my_set))
 
@@ -381,7 +381,7 @@ elif is_magician and not is_expert :
   print('atleast you are getting there')
 
 elif not is_magician : 
-  print('you need magic powers')
+  print('you need magic powers')"""
 
 #for item in 'Zero to mastery':
  # print(item)
@@ -592,9 +592,9 @@ print(l)
 l.sort()
 print(l)"""
 
-name = "moulya"
+"""name = "moulya"
 age = 18
-print(f"my name is {{name}} and my age is{{age}}")
+print(f"my name is {{name}} and my age is{{age}}")"""
 
 
 """def square(n):
@@ -669,11 +669,85 @@ print(x)"""
 if (a<4 or a>8):
   raise ValueError("Value should be between 4 and 8")"""
 
-a = [1,23,4,5,6,765,54]
+"""a = [1,23,4,5,6,765,54]
 for index, i in enumerate(a):
   print(i)
   if (index == 3):
-    print("you r awesome")
+    print("you r awesome")"""
+
+"""1.Your company has employees witht different designations. Write a Python function calculate_salary using the map function to estimate the salary of employees after a certain number of days based on considering their over time allowance.
+salary = basic salary + OT allowance * no_of_days
+
+Input: Two lists - one representing the initial salary and the other representing the overtime allowance per day.
+Output: A list of floating-point numbers representing the salary after a specified number of days considering OT allowance.
+
+Problem Statement 2:
+You're organising a hackathon and want to filter out participants who solved a specific type of problem.
+Write a Python program filter_problem_solvers using the filter function to select only those who solved a given problem. 
+Input: A list of dictionaries representing participants, each containing 'name', 'id', and 'solved_problems'.
+Output: A list of dictionaries representing participants who solved the specified problem.
+Problem Statement 3:
+You're preparing a multi-course meal and want to calculate the total cooking time. Write a Python program calculate_cooking_time using the reduce function to find the overall cooking time.
+
+Input: A list of integers representing the cooking times for each course in minutes.
+Output: An integer representing the total cooking time.
+
+Problem Statement 4:
+You're designing a simple encoding system for messages. Write a Python function encode_messages using the map function to encode a list of messages like this. 'ABC' -> 'DEF'.
+
+Input: A list of strings representing messages and an integer representing the shift value for the encoding.
+Output: A list of strings representing the encoded messages.
+
+Problem Statement 5:
+Write a Python program that takes user input for two lists of integers, and then prints the squares of the common elements between the two lists. Use functional programming constructs:
+
+Problem Statement 6:
+You're building a file management system and need to extract file extensions from a list of file names. Write a Python program extract_file_extensions using the map function to obtain a list of file extensions.
+
+Input: A list of strings representing file names. Output: A list of strings representing file extensions.
+
+"""
+
+
+
+"""from tkinter import *
+root = Tk()
+lb1 = Label(root, text="first label", fg='blue')
+# lb2 = Label(root, text="second label", bg='pink')
+# lb1.pack()
+lb1.grid(row=0, column=0)
+# lb2.grid(row=1, column=1)
+
+e1 = Entry(root, width=25)
+e1.grid()
+
+
+def onclick():
+    name = e1.get()
+    lb3 = Label(root, text=name + " submitted this")
+    lb3.grid()
+
+
+bt1 = Button(root, text="submit", command=onclick)
+bt1.grid()
+root.mainloop()"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   

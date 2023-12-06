@@ -732,6 +732,45 @@ bt1 = Button(root, text="submit", command=onclick)
 bt1.grid()
 root.mainloop()"""
 
+"""name = input("Enter restauraunt name: ")
+r1 = int(input("enter revenue from location1:"))
+r2 = int(input("enter revenue from location2:"))
+r = r1 + r2
+dict1={}
+dict1[name]=r
+print()
+print("Restaurant Name: Revenue")
+print(dict1)"""
+
+"""brand = input("Enter brand name: ")
+sizes= input("Enter sizes: ").split()
+list(sizes)
+dict1={}
+dict1[brand]=list(set(sizes))
+print()
+print("Brand Name: Sizes")
+print(dict1)"""
+import csv
+from os import RTLD_NOW
+with open('pythonlab.csv', 'r') as input_file:
+    csv_reader = csv.reader(input_file)
+    highest_salary_employee = None
+    highest_salary = 0
+
+    for row in csv_reader:
+      salary = int(row['salary'])
+      if salary > highest_salary:
+        highest_salary = salary
+        highest_salary_employee = row['name']
+if highest_salary_employee:
+    print("Highest salary employee:", highest_salary_employee)
+else:
+    print("No employee found")
+        
+
+
+
+
 
 
 
